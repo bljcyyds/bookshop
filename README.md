@@ -8,5 +8,5 @@
 4. run the tomcat and open the browser: http://localhost:8080/BookShop_war_exploded/
 
 ### Technology stack
-Frontend: html+css+bookstrap+jsp
-Backend: servlet+jdbc
+#### Frontend: html+css+bookstrap+jsp
+#### Backend: servlet+jdbc
