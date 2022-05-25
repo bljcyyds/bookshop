@@ -17,13 +17,13 @@
 |   |---bookshop_database.sql  //database of the online bookshop
 |   |---bookshop
 |   |   |---src //backend code folder
-|   |   |   |---dao //interact with the database
-|   |   |   |---filter  //filter the request
-|   |   |   |---listener  //monitor the common application, session and request
+|   |   |   |---dao //mapper folder, interact with the database
+|   |   |   |---filter  //filter folder, filter the request
+|   |   |   |---listener  //listener folder, monitor the common application, session and request
 |   |   |   |---model //entity folder
-|   |   |   |---service //implememt service logic 
-|   |   |   |---servlet //receive requests from frontend and response
-|   |   |   |---utils // encapsulate auxiliary utility classes
+|   |   |   |---service //service folder, implememt service logic 
+|   |   |   |---servlet //servlet folder, receive requests from frontend and response
+|   |   |   |---utils // utils folder, encapsulate auxiliary utility classes
 |   |   |   |---c3p0-config.xml //configuration file
 |   |   |---WebContent //frontend code folder
 |   |   |   |---admin //pages for the backend management
@@ -49,6 +49,6 @@
 |   |   |   |---user_center.jsp //user center page
 |   |   |   |---user_login.jsp  //user login page
 |   |   |   |---user_register.jsp //user register page
-|   |   |   |---WEB-INF //configuration files for dependencies
+|   |   |   |---WEB-INF //library for dependencies
 |   |   |---build //class files
 ```
